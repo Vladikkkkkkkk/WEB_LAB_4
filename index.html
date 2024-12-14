@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Development</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">logo</div>
+            <div class="hamburger" id="hamburger">
+                <!-- три лайнс меню -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link active">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navLinks = document.getElementById('nav-links');
+
+            hamburger.addEventListener('click', () => {
+                navLinks.classList.toggle('active'); 
+            });
+
+        </script>
+
+        <img src="4C6746F9-3D61-4413-B2BF-3932CC0EE3A5 2 (1) copy 2.jpg" alt="Professional woman" class="main-image">
+        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf" alt="Team meeting"
+            class="meeting-image">
+
+        <div class="content-box">
+            <h2 class="title">Website Development</h2>
+            <p class="description">
+                Nunc mi ipsum faucibus vitae aliquet. Pellentesque elit eget gravida cum sociis natoque penatibus.
+                Urna duis convallis convallis tellus id interdum velit. Proin sed libero enim sed faucibus turpis in.
+            </p>
+            <button class="read-more">read more</button>
+        </div>
+        <div class="silver-box"></div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
