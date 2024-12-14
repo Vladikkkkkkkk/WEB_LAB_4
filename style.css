@@ -298,8 +298,8 @@ body {
     .main-image {
         width: 50%;
         height: 30%;
-        margin-bottom: 44%;
-        margin-left: -16%;
+        margin-bottom: 64%;
+        margin-left: -19%;
     }
 
     .content-box {
@@ -309,7 +309,7 @@ body {
         padding: 10px;
         background-color: #4A90E2;
         color: white;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
     }
 
     .title {
